@@ -163,6 +163,18 @@
 		5BBDA4F8183F2ACF0058C89C /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
 		5BBDA4F9183F2ACF0058C89C /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
 		5BBDA504183F2B430058C89C /* Tanline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BBDA502183F2B430058C89C /* Tanline.cpp */; };
+		5BE478FF19FEF89200C3ACCB /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		5BE4790019FEF89200C3ACCB /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		5BE4790119FEF89200C3ACCB /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		5BE4790219FEF89200C3ACCB /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		5BE4790319FEF89200C3ACCB /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		5BE4790419FEF89200C3ACCB /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		5BE4790519FEF89200C3ACCB /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		5BE4790619FEF89200C3ACCB /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		5BE4790719FEF89200C3ACCB /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		5BE4790A19FEF89200C3ACCB /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8123C01842F2E60076EB97 /* GLUT.framework */; };
+		5BE4791019FEF8DF00C3ACCB /* Marblephase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BE478FB19FEF87E00C3ACCB /* Marblephase.cpp */; };
+		5BE4791119FEF8E300C3ACCB /* Marblephase.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5BE478F919FEF81600C3ACCB /* Marblephase.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -256,6 +268,10 @@
 		5BBDA502183F2B430058C89C /* Tanline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tanline.cpp; path = plugins/Tanline.cpp; sourceTree = "<group>"; };
 		5BBDA503183F2B430058C89C /* Tanline.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Tanline.glsl; path = plugins/Tanline.glsl; sourceTree = "<group>"; };
 		5BBDA507183F2E9C0058C89C /* TanlineFFGL.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanlineFFGL.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE478F919FEF81600C3ACCB /* Marblephase.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Marblephase.glsl; path = plugins/Marblephase.glsl; sourceTree = "<group>"; };
+		5BE478FB19FEF87E00C3ACCB /* Marblephase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Marblephase.cpp; path = plugins/Marblephase.cpp; sourceTree = "<group>"; };
+		5BE4790E19FEF89200C3ACCB /* Marblephase.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marblephase.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE4790F19FEF89200C3ACCB /* Marblephase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Marblephase-Info.plist"; path = "/Users/dewb/ah/grainmarch/Marblephase-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +374,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BE4790919FEF89200C3ACCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE4790A19FEF89200C3ACCB /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -397,6 +421,8 @@
 				0ABE24D8198EF162000BB221 /* silica copy2-Info.plist */,
 				0A51AF9119FDCE3A000208F0 /* isis.bundle */,
 				0A51AF9219FDCE3A000208F0 /* connections copy-Info.plist */,
+				5BE4790E19FEF89200C3ACCB /* Marblephase.bundle */,
+				5BE4790F19FEF89200C3ACCB /* Marblephase-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -501,6 +527,8 @@
 				5B0FCE911793DE3E004E2E35 /* Grainmarch.glsl */,
 				5B1A40FE18CAB123004D8334 /* Paik-Abe.cpp */,
 				5B1A40FF18CAB123004D8334 /* Paik-Abe.glsl */,
+				5BE478FB19FEF87E00C3ACCB /* Marblephase.cpp */,
+				5BE478F919FEF81600C3ACCB /* Marblephase.glsl */,
 			);
 			name = plugins;
 			sourceTree = "<group>";
@@ -746,6 +774,23 @@
 			productReference = 5BBDA507183F2E9C0058C89C /* TanlineFFGL.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		5BE478FC19FEF89200C3ACCB /* Marblephase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE4790B19FEF89200C3ACCB /* Build configuration list for PBXNativeTarget "Marblephase" */;
+			buildPhases = (
+				5BE478FD19FEF89200C3ACCB /* Resources */,
+				5BE478FE19FEF89200C3ACCB /* Sources */,
+				5BE4790919FEF89200C3ACCB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marblephase;
+			productName = FFGLBrightness;
+			productReference = 5BE4790E19FEF89200C3ACCB /* Marblephase.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -780,6 +825,7 @@
 				0AE6B2331985BEE1006A114D /* polarize */,
 				0ABE24C4198EF162000BB221 /* connections */,
 				0A51AF7F19FDCE3A000208F0 /* isis */,
+				5BE478FC19FEF89200C3ACCB /* Marblephase */,
 			);
 		};
 /* End PBXProject section */
@@ -895,6 +941,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE478FD19FEF89200C3ACCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE4791119FEF8E300C3ACCB /* Marblephase.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1136,6 +1190,23 @@
 				5BBDA4F8183F2ACF0058C89C /* FFGLPluginSDK.cpp in Sources */,
 				5BBDA4F9183F2ACF0058C89C /* PluginDefinition.cpp in Sources */,
 				5BBDA504183F2B430058C89C /* Tanline.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE478FE19FEF89200C3ACCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE478FF19FEF89200C3ACCB /* FFGLExtensions.cpp in Sources */,
+				5BE4790019FEF89200C3ACCB /* FFGLFBO.cpp in Sources */,
+				5BE4790119FEF89200C3ACCB /* FFGLShader.cpp in Sources */,
+				5BE4790219FEF89200C3ACCB /* FFGL.cpp in Sources */,
+				5BE4790319FEF89200C3ACCB /* FFGLPluginInfo.cpp in Sources */,
+				5BE4790419FEF89200C3ACCB /* FFGLPluginInfoData.cpp in Sources */,
+				5BE4791019FEF8DF00C3ACCB /* Marblephase.cpp in Sources */,
+				5BE4790519FEF89200C3ACCB /* FFGLPluginManager.cpp in Sources */,
+				5BE4790619FEF89200C3ACCB /* FFGLPluginSDK.cpp in Sources */,
+				5BE4790719FEF89200C3ACCB /* PluginDefinition.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2150,6 +2221,76 @@
 			};
 			name = Release;
 		};
+		5BE4790C19FEF89200C3ACCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "Marblephase-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = Marblephase;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		5BE4790D19FEF89200C3ACCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "Marblephase-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = Marblephase;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2284,6 +2425,15 @@
 			buildConfigurations = (
 				5BBDA4FD183F2ACF0058C89C /* Debug */,
 				5BBDA4FE183F2ACF0058C89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE4790B19FEF89200C3ACCB /* Build configuration list for PBXNativeTarget "Marblephase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE4790C19FEF89200C3ACCB /* Debug */,
+				5BE4790D19FEF89200C3ACCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

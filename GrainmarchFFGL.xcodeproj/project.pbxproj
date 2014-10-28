@@ -7,6 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A51AF8319FDCE3A000208F0 /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0A51AF8419FDCE3A000208F0 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0A51AF8519FDCE3A000208F0 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0A51AF8619FDCE3A000208F0 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0A51AF8719FDCE3A000208F0 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0A51AF8819FDCE3A000208F0 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0A51AF8919FDCE3A000208F0 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0A51AF8A19FDCE3A000208F0 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0A51AF8B19FDCE3A000208F0 /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0A51AF9519FDCE6D000208F0 /* isis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A51AF9319FDCE6D000208F0 /* isis.cpp */; };
+		0A51AF9619FDCE6D000208F0 /* isis.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0A51AF9419FDCE6D000208F0 /* isis.glsl */; };
+		0A681FF719833D0500E86C34 /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0A681FF819833D0500E86C34 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0A681FF919833D0500E86C34 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0A681FFA19833D0500E86C34 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0A681FFB19833D0500E86C34 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0A681FFC19833D0500E86C34 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0A681FFD19833D0500E86C34 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0A681FFE19833D0500E86C34 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0A681FFF19833D0500E86C34 /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0A68202319833D9A00E86C34 /* cortex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A68200719833D5A00E86C34 /* cortex.cpp */; };
+		0A68202419833EEA00E86C34 /* cortex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0A68200919833D5A00E86C34 /* cortex.glsl */; };
+		0A68202519833EF400E86C34 /* cortex.cpp~ in Resources */ = {isa = PBXBuildFile; fileRef = 0A68200819833D5A00E86C34 /* cortex.cpp~ */; };
+		0A68202619833EF700E86C34 /* cortex.glsl~ in Resources */ = {isa = PBXBuildFile; fileRef = 0A68200A19833D5A00E86C34 /* cortex.glsl~ */; };
+		0ABE24C9198EF162000BB221 /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0ABE24CA198EF162000BB221 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0ABE24CB198EF162000BB221 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0ABE24CC198EF162000BB221 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0ABE24CD198EF162000BB221 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0ABE24CE198EF162000BB221 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0ABE24CF198EF162000BB221 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0ABE24D0198EF162000BB221 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0ABE24D1198EF162000BB221 /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0ABE24DF198F098A000BB221 /* connections.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE24DD198F098A000BB221 /* connections.cpp */; };
+		0ABE24E0198F098A000BB221 /* connections.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE24DE198F098A000BB221 /* connections.glsl */; };
+		0ADEDACA1983468400F8D2AD /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0ADEDACB1983468400F8D2AD /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0ADEDACC1983468400F8D2AD /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0ADEDACD1983468400F8D2AD /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0ADEDACE1983468400F8D2AD /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0ADEDACF1983468400F8D2AD /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0ADEDAD01983468400F8D2AD /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0ADEDAD11983468400F8D2AD /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0ADEDAD21983468400F8D2AD /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0ADEDADF1983480A00F8D2AD /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0ADEDAE01983480A00F8D2AD /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0ADEDAE11983480A00F8D2AD /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0ADEDAE21983480A00F8D2AD /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0ADEDAE31983480A00F8D2AD /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0ADEDAE41983480A00F8D2AD /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0ADEDAE51983480A00F8D2AD /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0ADEDAE61983480A00F8D2AD /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0ADEDAE71983480A00F8D2AD /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0ADEDAEF1983483500F8D2AD /* voronoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A68201119833D5A00E86C34 /* voronoi.cpp */; };
+		0ADEDAF01983483900F8D2AD /* voronoi.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0A68201319833D5A00E86C34 /* voronoi.glsl */; };
+		0ADEDAF61983496600F8D2AD /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0ADEDAF71983496600F8D2AD /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0ADEDAF81983496600F8D2AD /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0ADEDAF91983496600F8D2AD /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0ADEDAFA1983496600F8D2AD /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0ADEDAFB1983496600F8D2AD /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0ADEDAFC1983496600F8D2AD /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0ADEDAFD1983496600F8D2AD /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0ADEDAFE1983496600F8D2AD /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0ADEDB0E1983499500F8D2AD /* lightning.cpp~ in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEDB081983498B00F8D2AD /* lightning.cpp~ */; };
+		0ADEDB1719834A7000F8D2AD /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0ADEDB1819834A7000F8D2AD /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0ADEDB1919834A7000F8D2AD /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0ADEDB1A19834A7000F8D2AD /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0ADEDB1B19834A7000F8D2AD /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0ADEDB1C19834A7000F8D2AD /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0ADEDB1D19834A7000F8D2AD /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0ADEDB1E19834A7000F8D2AD /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0ADEDB1F19834A7000F8D2AD /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0ADEDB2E19834EDA00F8D2AD /* liquid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEDB2B19834EDA00F8D2AD /* liquid.cpp */; };
+		0ADEDB2F19834EDA00F8D2AD /* liquid.cpp~ in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEDB2C19834EDA00F8D2AD /* liquid.cpp~ */; };
+		0ADEDB3019834EDA00F8D2AD /* liquid.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEDB2D19834EDA00F8D2AD /* liquid.glsl */; };
+		0ADEDB3419834EF100F8D2AD /* sidewinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEDB3119834EF100F8D2AD /* sidewinder.cpp */; };
+		0ADEDB3519834EF100F8D2AD /* sidewinder.cpp~ in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEDB3219834EF100F8D2AD /* sidewinder.cpp~ */; };
+		0ADEDB3619834EF100F8D2AD /* sidewinder.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEDB3319834EF100F8D2AD /* sidewinder.glsl */; };
+		0ADEDB3A19834F0100F8D2AD /* silica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEDB3719834F0100F8D2AD /* silica.cpp */; };
+		0ADEDB3B19834F0100F8D2AD /* silica.cpp~ in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEDB3819834F0100F8D2AD /* silica.cpp~ */; };
+		0ADEDB3C19834F0100F8D2AD /* silica.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEDB3919834F0100F8D2AD /* silica.glsl */; };
+		0AE6B2381985BEE1006A114D /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0AE6B2391985BEE1006A114D /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0AE6B23A1985BEE1006A114D /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0AE6B23B1985BEE1006A114D /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0AE6B23C1985BEE1006A114D /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0AE6B23D1985BEE1006A114D /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0AE6B23E1985BEE1006A114D /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0AE6B23F1985BEE1006A114D /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0AE6B2401985BEE1006A114D /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0AE6B24A1985BF12006A114D /* polarize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6B2481985BF12006A114D /* polarize.cpp */; };
+		0AE6B24B1985BF12006A114D /* polarize.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6B2491985BF12006A114D /* polarize.glsl */; };
 		5B07B63316F2ED7900AD1A46 /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
 		5B07B63416F2ED7900AD1A46 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
 		5B07B63516F2ED7900AD1A46 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
@@ -72,6 +166,50 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A51AF9119FDCE3A000208F0 /* isis.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isis.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A51AF9219FDCE3A000208F0 /* connections copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "connections copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/connections copy-Info.plist"; sourceTree = "<absolute>"; };
+		0A51AF9319FDCE6D000208F0 /* isis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = isis.cpp; path = plugins/isis.cpp; sourceTree = "<group>"; };
+		0A51AF9419FDCE6D000208F0 /* isis.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = isis.glsl; path = plugins/isis.glsl; sourceTree = "<group>"; };
+		0A68200519833D0500E86C34 /* cortex.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cortex.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A68200619833D0500E86C34 /* Grainmarch copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Grainmarch copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/Grainmarch copy-Info.plist"; sourceTree = "<absolute>"; };
+		0A68200719833D5A00E86C34 /* cortex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cortex.cpp; path = plugins/cortex.cpp; sourceTree = "<group>"; };
+		0A68200819833D5A00E86C34 /* cortex.cpp~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "cortex.cpp~"; path = "plugins/cortex.cpp~"; sourceTree = "<group>"; };
+		0A68200919833D5A00E86C34 /* cortex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cortex.glsl; path = plugins/cortex.glsl; sourceTree = "<group>"; };
+		0A68200A19833D5A00E86C34 /* cortex.glsl~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "cortex.glsl~"; path = "plugins/cortex.glsl~"; sourceTree = "<group>"; };
+		0A68200B19833D5A00E86C34 /* cortex2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cortex2.cpp; path = plugins/cortex2.cpp; sourceTree = "<group>"; };
+		0A68200C19833D5A00E86C34 /* cortex2.cpp~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "cortex2.cpp~"; path = "plugins/cortex2.cpp~"; sourceTree = "<group>"; };
+		0A68200D19833D5A00E86C34 /* cortex2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cortex2.glsl; path = plugins/cortex2.glsl; sourceTree = "<group>"; };
+		0A68200E19833D5A00E86C34 /* cortex2.glsl~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "cortex2.glsl~"; path = "plugins/cortex2.glsl~"; sourceTree = "<group>"; };
+		0A68201119833D5A00E86C34 /* voronoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voronoi.cpp; path = plugins/voronoi.cpp; sourceTree = "<group>"; };
+		0A68201219833D5A00E86C34 /* voronoi.cpp~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "voronoi.cpp~"; path = "plugins/voronoi.cpp~"; sourceTree = "<group>"; };
+		0A68201319833D5A00E86C34 /* voronoi.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = voronoi.glsl; path = plugins/voronoi.glsl; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.opencl; };
+		0A68201419833D5A00E86C34 /* voronoi.glsl~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "voronoi.glsl~"; path = "plugins/voronoi.glsl~"; sourceTree = "<group>"; };
+		0ABE24D7198EF162000BB221 /* connectionsFFGL.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = connectionsFFGL.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABE24D8198EF162000BB221 /* silica copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "silica copy2-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/silica copy2-Info.plist"; sourceTree = "<absolute>"; };
+		0ABE24DD198F098A000BB221 /* connections.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connections.cpp; path = plugins/connections.cpp; sourceTree = "<group>"; };
+		0ABE24DE198F098A000BB221 /* connections.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = connections.glsl; path = plugins/connections.glsl; sourceTree = "<group>"; };
+		0ADEDAD71983468400F8D2AD /* sidewinder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sidewinder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADEDAD81983468400F8D2AD /* cortex copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "cortex copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/cortex copy-Info.plist"; sourceTree = "<absolute>"; };
+		0ADEDAED1983480A00F8D2AD /* voronoi.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voronoi.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADEDAEE1983480A00F8D2AD /* snakeskin copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "snakeskin copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/snakeskin copy-Info.plist"; sourceTree = "<absolute>"; };
+		0ADEDB051983496600F8D2AD /* liquid.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liquid.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADEDB061983496600F8D2AD /* voronoi copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "voronoi copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/voronoi copy-Info.plist"; sourceTree = "<absolute>"; };
+		0ADEDB081983498B00F8D2AD /* lightning.cpp~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "lightning.cpp~"; path = "plugins/lightning.cpp~"; sourceTree = "<group>"; };
+		0ADEDB2519834A7000F8D2AD /* silica.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = silica.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADEDB2619834A7000F8D2AD /* lightning copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "lightning copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/lightning copy-Info.plist"; sourceTree = "<absolute>"; };
+		0ADEDB2B19834EDA00F8D2AD /* liquid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = liquid.cpp; path = plugins/liquid.cpp; sourceTree = "<group>"; };
+		0ADEDB2C19834EDA00F8D2AD /* liquid.cpp~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "liquid.cpp~"; path = "plugins/liquid.cpp~"; sourceTree = "<group>"; };
+		0ADEDB2D19834EDA00F8D2AD /* liquid.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = liquid.glsl; path = plugins/liquid.glsl; sourceTree = "<group>"; };
+		0ADEDB3119834EF100F8D2AD /* sidewinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sidewinder.cpp; path = plugins/sidewinder.cpp; sourceTree = "<group>"; };
+		0ADEDB3219834EF100F8D2AD /* sidewinder.cpp~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "sidewinder.cpp~"; path = "plugins/sidewinder.cpp~"; sourceTree = "<group>"; };
+		0ADEDB3319834EF100F8D2AD /* sidewinder.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sidewinder.glsl; path = plugins/sidewinder.glsl; sourceTree = "<group>"; };
+		0ADEDB3719834F0100F8D2AD /* silica.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = silica.cpp; path = plugins/silica.cpp; sourceTree = "<group>"; };
+		0ADEDB3819834F0100F8D2AD /* silica.cpp~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "silica.cpp~"; path = "plugins/silica.cpp~"; sourceTree = "<group>"; };
+		0ADEDB3919834F0100F8D2AD /* silica.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = silica.glsl; path = plugins/silica.glsl; sourceTree = "<group>"; };
+		0AE6B2461985BEE1006A114D /* polarize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = polarize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE6B2471985BEE1006A114D /* silica copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "silica copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/silica copy-Info.plist"; sourceTree = "<absolute>"; };
+		0AE6B2481985BF12006A114D /* polarize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = polarize.cpp; path = plugins/polarize.cpp; sourceTree = "<group>"; };
+		0AE6B2491985BF12006A114D /* polarize.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = polarize.glsl; path = plugins/polarize.glsl; sourceTree = "<group>"; };
 		2D2190970AF02BD1007154B7 /* GrainmarchFFGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrainmarchFFGL-Info.plist"; sourceTree = "<group>"; };
 		2DA287A70AEEFE950030A4DD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		5B07B56D16F2ED7800AD1A46 /* FFGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGL.h; sourceTree = "<group>"; };
@@ -121,6 +259,62 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A51AF8D19FDCE3A000208F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A68200119833D0500E86C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABE24D3198EF162000BB221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDAD31983468400F8D2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDAE91983480A00F8D2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDB011983496600F8D2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDB2119834A7000F8D2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE6B2421985BEE1006A114D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D2190920AF02BD1007154B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,6 +381,22 @@
 				5B3022C218485D6A005C75A8 /* Average.bundle */,
 				5B1A40FC18CAB0DA004D8334 /* Paik-Abe.bundle */,
 				5B1A40FD18CAB0DA004D8334 /* Paik-Abe-Info.plist */,
+				0A68200519833D0500E86C34 /* cortex.bundle */,
+				0A68200619833D0500E86C34 /* Grainmarch copy-Info.plist */,
+				0ADEDAD71983468400F8D2AD /* sidewinder.bundle */,
+				0ADEDAD81983468400F8D2AD /* cortex copy-Info.plist */,
+				0ADEDAED1983480A00F8D2AD /* voronoi.bundle */,
+				0ADEDAEE1983480A00F8D2AD /* snakeskin copy-Info.plist */,
+				0ADEDB051983496600F8D2AD /* liquid.bundle */,
+				0ADEDB061983496600F8D2AD /* voronoi copy-Info.plist */,
+				0ADEDB2519834A7000F8D2AD /* silica.bundle */,
+				0ADEDB2619834A7000F8D2AD /* lightning copy-Info.plist */,
+				0AE6B2461985BEE1006A114D /* polarize.bundle */,
+				0AE6B2471985BEE1006A114D /* silica copy-Info.plist */,
+				0ABE24D7198EF162000BB221 /* connectionsFFGL.bundle */,
+				0ABE24D8198EF162000BB221 /* silica copy2-Info.plist */,
+				0A51AF9119FDCE3A000208F0 /* isis.bundle */,
+				0A51AF9219FDCE3A000208F0 /* connections copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,6 +460,34 @@
 		5BBDA4ED183F13350058C89C /* plugins */ = {
 			isa = PBXGroup;
 			children = (
+				0A51AF9319FDCE6D000208F0 /* isis.cpp */,
+				0A51AF9419FDCE6D000208F0 /* isis.glsl */,
+				0ABE24DD198F098A000BB221 /* connections.cpp */,
+				0ABE24DE198F098A000BB221 /* connections.glsl */,
+				0ADEDB3719834F0100F8D2AD /* silica.cpp */,
+				0ADEDB3819834F0100F8D2AD /* silica.cpp~ */,
+				0ADEDB3919834F0100F8D2AD /* silica.glsl */,
+				0ADEDB3119834EF100F8D2AD /* sidewinder.cpp */,
+				0ADEDB3219834EF100F8D2AD /* sidewinder.cpp~ */,
+				0ADEDB3319834EF100F8D2AD /* sidewinder.glsl */,
+				0AE6B2481985BF12006A114D /* polarize.cpp */,
+				0AE6B2491985BF12006A114D /* polarize.glsl */,
+				0ADEDB081983498B00F8D2AD /* lightning.cpp~ */,
+				0A68200719833D5A00E86C34 /* cortex.cpp */,
+				0A68200819833D5A00E86C34 /* cortex.cpp~ */,
+				0A68200919833D5A00E86C34 /* cortex.glsl */,
+				0A68200A19833D5A00E86C34 /* cortex.glsl~ */,
+				0ADEDB2B19834EDA00F8D2AD /* liquid.cpp */,
+				0ADEDB2C19834EDA00F8D2AD /* liquid.cpp~ */,
+				0ADEDB2D19834EDA00F8D2AD /* liquid.glsl */,
+				0A68200B19833D5A00E86C34 /* cortex2.cpp */,
+				0A68200C19833D5A00E86C34 /* cortex2.cpp~ */,
+				0A68200D19833D5A00E86C34 /* cortex2.glsl */,
+				0A68200E19833D5A00E86C34 /* cortex2.glsl~ */,
+				0A68201119833D5A00E86C34 /* voronoi.cpp */,
+				0A68201219833D5A00E86C34 /* voronoi.cpp~ */,
+				0A68201319833D5A00E86C34 /* voronoi.glsl */,
+				0A68201419833D5A00E86C34 /* voronoi.glsl~ */,
 				5B3022AF18485D5E005C75A8 /* Average.cpp */,
 				5B3022B018485D5E005C75A8 /* Average.glsl */,
 				5B8123BD1842EAE90076EB97 /* Blockhead.cpp */,
@@ -270,6 +508,142 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A51AF7F19FDCE3A000208F0 /* isis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A51AF8E19FDCE3A000208F0 /* Build configuration list for PBXNativeTarget "isis" */;
+			buildPhases = (
+				0A51AF8019FDCE3A000208F0 /* Resources */,
+				0A51AF8219FDCE3A000208F0 /* Sources */,
+				0A51AF8D19FDCE3A000208F0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isis;
+			productName = FFGLBrightness;
+			productReference = 0A51AF9119FDCE3A000208F0 /* isis.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0A681FF419833D0500E86C34 /* cortex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A68200219833D0500E86C34 /* Build configuration list for PBXNativeTarget "cortex" */;
+			buildPhases = (
+				0A681FF519833D0500E86C34 /* Resources */,
+				0A681FF619833D0500E86C34 /* Sources */,
+				0A68200119833D0500E86C34 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cortex;
+			productName = FFGLBrightness;
+			productReference = 0A68200519833D0500E86C34 /* cortex.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0ABE24C4198EF162000BB221 /* connections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABE24D4198EF162000BB221 /* Build configuration list for PBXNativeTarget "connections" */;
+			buildPhases = (
+				0ABE24C5198EF162000BB221 /* Resources */,
+				0ABE24C8198EF162000BB221 /* Sources */,
+				0ABE24D3198EF162000BB221 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = connections;
+			productName = FFGLBrightness;
+			productReference = 0ABE24D7198EF162000BB221 /* connectionsFFGL.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0ADEDAC31983468400F8D2AD /* sidewinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADEDAD41983468400F8D2AD /* Build configuration list for PBXNativeTarget "sidewinder" */;
+			buildPhases = (
+				0ADEDAC41983468400F8D2AD /* Resources */,
+				0ADEDAC81983468400F8D2AD /* Sources */,
+				0ADEDAD31983468400F8D2AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sidewinder;
+			productName = FFGLBrightness;
+			productReference = 0ADEDAD71983468400F8D2AD /* sidewinder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0ADEDADB1983480A00F8D2AD /* voronoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADEDAEA1983480A00F8D2AD /* Build configuration list for PBXNativeTarget "voronoi" */;
+			buildPhases = (
+				0ADEDADC1983480A00F8D2AD /* Resources */,
+				0ADEDADE1983480A00F8D2AD /* Sources */,
+				0ADEDAE91983480A00F8D2AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voronoi;
+			productName = FFGLBrightness;
+			productReference = 0ADEDAED1983480A00F8D2AD /* voronoi.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0ADEDAF11983496600F8D2AD /* liquid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADEDB021983496600F8D2AD /* Build configuration list for PBXNativeTarget "liquid" */;
+			buildPhases = (
+				0ADEDAF21983496600F8D2AD /* Resources */,
+				0ADEDAF51983496600F8D2AD /* Sources */,
+				0ADEDB011983496600F8D2AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liquid;
+			productName = FFGLBrightness;
+			productReference = 0ADEDB051983496600F8D2AD /* liquid.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0ADEDB1019834A7000F8D2AD /* silica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADEDB2219834A7000F8D2AD /* Build configuration list for PBXNativeTarget "silica" */;
+			buildPhases = (
+				0ADEDB1119834A7000F8D2AD /* Resources */,
+				0ADEDB1619834A7000F8D2AD /* Sources */,
+				0ADEDB2119834A7000F8D2AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = silica;
+			productName = FFGLBrightness;
+			productReference = 0ADEDB2519834A7000F8D2AD /* silica.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0AE6B2331985BEE1006A114D /* polarize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE6B2431985BEE1006A114D /* Build configuration list for PBXNativeTarget "polarize" */;
+			buildPhases = (
+				0AE6B2341985BEE1006A114D /* Resources */,
+				0AE6B2371985BEE1006A114D /* Sources */,
+				0AE6B2421985BEE1006A114D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polarize;
+			productName = FFGLBrightness;
+			productReference = 0AE6B2461985BEE1006A114D /* polarize.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		2D2190890AF02BD1007154B7 /* Grainmarch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2190930AF02BD1007154B7 /* Build configuration list for PBXNativeTarget "Grainmarch" */;
@@ -398,11 +772,89 @@
 				5B8123C2184459F20076EB97 /* Linecrimes */,
 				5B3022B118485D6A005C75A8 /* Average */,
 				5B1A40EB18CAB0DA004D8334 /* Paik-Abe */,
+				0A681FF419833D0500E86C34 /* cortex */,
+				0ADEDAC31983468400F8D2AD /* sidewinder */,
+				0ADEDADB1983480A00F8D2AD /* voronoi */,
+				0ADEDAF11983496600F8D2AD /* liquid */,
+				0ADEDB1019834A7000F8D2AD /* silica */,
+				0AE6B2331985BEE1006A114D /* polarize */,
+				0ABE24C4198EF162000BB221 /* connections */,
+				0A51AF7F19FDCE3A000208F0 /* isis */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A51AF8019FDCE3A000208F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A51AF9619FDCE6D000208F0 /* isis.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A681FF519833D0500E86C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68202419833EEA00E86C34 /* cortex.glsl in Resources */,
+				0A68202519833EF400E86C34 /* cortex.cpp~ in Resources */,
+				0A68202619833EF700E86C34 /* cortex.glsl~ in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABE24C5198EF162000BB221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABE24E0198F098A000BB221 /* connections.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDAC41983468400F8D2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDB3519834EF100F8D2AD /* sidewinder.cpp~ in Resources */,
+				0ADEDB3619834EF100F8D2AD /* sidewinder.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDADC1983480A00F8D2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDAF01983483900F8D2AD /* voronoi.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDAF21983496600F8D2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDB0E1983499500F8D2AD /* lightning.cpp~ in Resources */,
+				0ADEDB2F19834EDA00F8D2AD /* liquid.cpp~ in Resources */,
+				0ADEDB3019834EDA00F8D2AD /* liquid.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDB1119834A7000F8D2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDB3B19834F0100F8D2AD /* silica.cpp~ in Resources */,
+				0ADEDB3C19834F0100F8D2AD /* silica.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE6B2341985BEE1006A114D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE6B24B1985BF12006A114D /* polarize.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D21908A0AF02BD1007154B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,6 +901,142 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A51AF8219FDCE3A000208F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A51AF8319FDCE3A000208F0 /* FFGLExtensions.cpp in Sources */,
+				0A51AF8419FDCE3A000208F0 /* FFGLFBO.cpp in Sources */,
+				0A51AF8519FDCE3A000208F0 /* FFGLShader.cpp in Sources */,
+				0A51AF8619FDCE3A000208F0 /* FFGL.cpp in Sources */,
+				0A51AF8719FDCE3A000208F0 /* FFGLPluginInfo.cpp in Sources */,
+				0A51AF8819FDCE3A000208F0 /* FFGLPluginInfoData.cpp in Sources */,
+				0A51AF8919FDCE3A000208F0 /* FFGLPluginManager.cpp in Sources */,
+				0A51AF8A19FDCE3A000208F0 /* FFGLPluginSDK.cpp in Sources */,
+				0A51AF8B19FDCE3A000208F0 /* PluginDefinition.cpp in Sources */,
+				0A51AF9519FDCE6D000208F0 /* isis.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A681FF619833D0500E86C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68202319833D9A00E86C34 /* cortex.cpp in Sources */,
+				0A681FF719833D0500E86C34 /* FFGLExtensions.cpp in Sources */,
+				0A681FF819833D0500E86C34 /* FFGLFBO.cpp in Sources */,
+				0A681FF919833D0500E86C34 /* FFGLShader.cpp in Sources */,
+				0A681FFA19833D0500E86C34 /* FFGL.cpp in Sources */,
+				0A681FFB19833D0500E86C34 /* FFGLPluginInfo.cpp in Sources */,
+				0A681FFC19833D0500E86C34 /* FFGLPluginInfoData.cpp in Sources */,
+				0A681FFD19833D0500E86C34 /* FFGLPluginManager.cpp in Sources */,
+				0A681FFE19833D0500E86C34 /* FFGLPluginSDK.cpp in Sources */,
+				0A681FFF19833D0500E86C34 /* PluginDefinition.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABE24C8198EF162000BB221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABE24C9198EF162000BB221 /* FFGLExtensions.cpp in Sources */,
+				0ABE24CA198EF162000BB221 /* FFGLFBO.cpp in Sources */,
+				0ABE24CB198EF162000BB221 /* FFGLShader.cpp in Sources */,
+				0ABE24CC198EF162000BB221 /* FFGL.cpp in Sources */,
+				0ABE24CD198EF162000BB221 /* FFGLPluginInfo.cpp in Sources */,
+				0ABE24CE198EF162000BB221 /* FFGLPluginInfoData.cpp in Sources */,
+				0ABE24CF198EF162000BB221 /* FFGLPluginManager.cpp in Sources */,
+				0ABE24D0198EF162000BB221 /* FFGLPluginSDK.cpp in Sources */,
+				0ABE24D1198EF162000BB221 /* PluginDefinition.cpp in Sources */,
+				0ABE24DF198F098A000BB221 /* connections.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDAC81983468400F8D2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDACA1983468400F8D2AD /* FFGLExtensions.cpp in Sources */,
+				0ADEDACB1983468400F8D2AD /* FFGLFBO.cpp in Sources */,
+				0ADEDACC1983468400F8D2AD /* FFGLShader.cpp in Sources */,
+				0ADEDACD1983468400F8D2AD /* FFGL.cpp in Sources */,
+				0ADEDACE1983468400F8D2AD /* FFGLPluginInfo.cpp in Sources */,
+				0ADEDACF1983468400F8D2AD /* FFGLPluginInfoData.cpp in Sources */,
+				0ADEDAD01983468400F8D2AD /* FFGLPluginManager.cpp in Sources */,
+				0ADEDAD11983468400F8D2AD /* FFGLPluginSDK.cpp in Sources */,
+				0ADEDAD21983468400F8D2AD /* PluginDefinition.cpp in Sources */,
+				0ADEDB3419834EF100F8D2AD /* sidewinder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDADE1983480A00F8D2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDADF1983480A00F8D2AD /* FFGLExtensions.cpp in Sources */,
+				0ADEDAE01983480A00F8D2AD /* FFGLFBO.cpp in Sources */,
+				0ADEDAE11983480A00F8D2AD /* FFGLShader.cpp in Sources */,
+				0ADEDAE21983480A00F8D2AD /* FFGL.cpp in Sources */,
+				0ADEDAE31983480A00F8D2AD /* FFGLPluginInfo.cpp in Sources */,
+				0ADEDAE41983480A00F8D2AD /* FFGLPluginInfoData.cpp in Sources */,
+				0ADEDAE51983480A00F8D2AD /* FFGLPluginManager.cpp in Sources */,
+				0ADEDAE61983480A00F8D2AD /* FFGLPluginSDK.cpp in Sources */,
+				0ADEDAE71983480A00F8D2AD /* PluginDefinition.cpp in Sources */,
+				0ADEDAEF1983483500F8D2AD /* voronoi.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDAF51983496600F8D2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDAF61983496600F8D2AD /* FFGLExtensions.cpp in Sources */,
+				0ADEDAF71983496600F8D2AD /* FFGLFBO.cpp in Sources */,
+				0ADEDAF81983496600F8D2AD /* FFGLShader.cpp in Sources */,
+				0ADEDAF91983496600F8D2AD /* FFGL.cpp in Sources */,
+				0ADEDAFA1983496600F8D2AD /* FFGLPluginInfo.cpp in Sources */,
+				0ADEDAFB1983496600F8D2AD /* FFGLPluginInfoData.cpp in Sources */,
+				0ADEDAFC1983496600F8D2AD /* FFGLPluginManager.cpp in Sources */,
+				0ADEDAFD1983496600F8D2AD /* FFGLPluginSDK.cpp in Sources */,
+				0ADEDAFE1983496600F8D2AD /* PluginDefinition.cpp in Sources */,
+				0ADEDB2E19834EDA00F8D2AD /* liquid.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ADEDB1619834A7000F8D2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDB1719834A7000F8D2AD /* FFGLExtensions.cpp in Sources */,
+				0ADEDB1819834A7000F8D2AD /* FFGLFBO.cpp in Sources */,
+				0ADEDB1919834A7000F8D2AD /* FFGLShader.cpp in Sources */,
+				0ADEDB1A19834A7000F8D2AD /* FFGL.cpp in Sources */,
+				0ADEDB1B19834A7000F8D2AD /* FFGLPluginInfo.cpp in Sources */,
+				0ADEDB1C19834A7000F8D2AD /* FFGLPluginInfoData.cpp in Sources */,
+				0ADEDB1D19834A7000F8D2AD /* FFGLPluginManager.cpp in Sources */,
+				0ADEDB1E19834A7000F8D2AD /* FFGLPluginSDK.cpp in Sources */,
+				0ADEDB1F19834A7000F8D2AD /* PluginDefinition.cpp in Sources */,
+				0ADEDB3A19834F0100F8D2AD /* silica.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE6B2371985BEE1006A114D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE6B2381985BEE1006A114D /* FFGLExtensions.cpp in Sources */,
+				0AE6B2391985BEE1006A114D /* FFGLFBO.cpp in Sources */,
+				0AE6B23A1985BEE1006A114D /* FFGLShader.cpp in Sources */,
+				0AE6B23B1985BEE1006A114D /* FFGL.cpp in Sources */,
+				0AE6B23C1985BEE1006A114D /* FFGLPluginInfo.cpp in Sources */,
+				0AE6B23D1985BEE1006A114D /* FFGLPluginInfoData.cpp in Sources */,
+				0AE6B23E1985BEE1006A114D /* FFGLPluginManager.cpp in Sources */,
+				0AE6B23F1985BEE1006A114D /* FFGLPluginSDK.cpp in Sources */,
+				0AE6B2401985BEE1006A114D /* PluginDefinition.cpp in Sources */,
+				0AE6B24A1985BF12006A114D /* polarize.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D21908B0AF02BD1007154B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -554,6 +1142,566 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0A51AF8F19FDCE3A000208F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "connections copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = isis;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0A51AF9019FDCE3A000208F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "connections copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = isis;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0A68200319833D0500E86C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "Grainmarch copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = cortex;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0A68200419833D0500E86C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "Grainmarch copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = cortex;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0ABE24D5198EF162000BB221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "silica copy2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = connectionsFFGL;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0ABE24D6198EF162000BB221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "silica copy2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = connectionsFFGL;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0ADEDAD51983468400F8D2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "cortex copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = sidewinder;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0ADEDAD61983468400F8D2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "cortex copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = sidewinder;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0ADEDAEB1983480A00F8D2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "snakeskin copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = voronoi;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0ADEDAEC1983480A00F8D2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "snakeskin copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = voronoi;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0ADEDB031983496600F8D2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "voronoi copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = liquid;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0ADEDB041983496600F8D2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "voronoi copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = liquid;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0ADEDB2319834A7000F8D2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "lightning copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = silica;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0ADEDB2419834A7000F8D2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "lightning copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = silica;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0AE6B2441985BEE1006A114D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "silica copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = polarize;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0AE6B2451985BEE1006A114D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "silica copy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = polarize;
+				SDKROOT = macosx10.8;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		2D2190940AF02BD1007154B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1005,6 +2153,78 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A51AF8E19FDCE3A000208F0 /* Build configuration list for PBXNativeTarget "isis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A51AF8F19FDCE3A000208F0 /* Debug */,
+				0A51AF9019FDCE3A000208F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A68200219833D0500E86C34 /* Build configuration list for PBXNativeTarget "cortex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A68200319833D0500E86C34 /* Debug */,
+				0A68200419833D0500E86C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ABE24D4198EF162000BB221 /* Build configuration list for PBXNativeTarget "connections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABE24D5198EF162000BB221 /* Debug */,
+				0ABE24D6198EF162000BB221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ADEDAD41983468400F8D2AD /* Build configuration list for PBXNativeTarget "sidewinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADEDAD51983468400F8D2AD /* Debug */,
+				0ADEDAD61983468400F8D2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ADEDAEA1983480A00F8D2AD /* Build configuration list for PBXNativeTarget "voronoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADEDAEB1983480A00F8D2AD /* Debug */,
+				0ADEDAEC1983480A00F8D2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ADEDB021983496600F8D2AD /* Build configuration list for PBXNativeTarget "liquid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADEDB031983496600F8D2AD /* Debug */,
+				0ADEDB041983496600F8D2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ADEDB2219834A7000F8D2AD /* Build configuration list for PBXNativeTarget "silica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADEDB2319834A7000F8D2AD /* Debug */,
+				0ADEDB2419834A7000F8D2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE6B2431985BEE1006A114D /* Build configuration list for PBXNativeTarget "polarize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE6B2441985BEE1006A114D /* Debug */,
+				0AE6B2451985BEE1006A114D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D2190930AF02BD1007154B7 /* Build configuration list for PBXNativeTarget "Grainmarch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -15,5 +15,3 @@ DECLARE_PLUGIN(EffectPlugin, "DBAV", "Average", "Average hue using hardware mipm
 BEGIN_SHADER_PARAMETERS()
     PARAM(Level, 0.0, 16.0, 4.0)
 END_SHADER_PARAMETERS()
-
-

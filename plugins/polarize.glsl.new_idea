@@ -1,0 +1,39 @@
+char vertexShaderCode[] = R"(
+
+niform sampler2D inputTexture0;
+
+void main()
+{    
+    gl_Position = gl_Vertex;
+    gl_TexCoord[0] = gl_MultiTexCoord0;
+}
+
+)";
+
+char fragmentShaderCode[] = R"(
+
+#version 120
+
+uniform float iResolutionX;
+uniform float iResolutionY;
+uniform sampler2D inputTexture0;
+
+void main() {
+// Normalised texture coords
+vec2 texCoord = gl_TexCoord[0].xy;
+
+// Shift origin to texture centre (with offset)
+vec2 normCoord = texCoord - 0.5;;
+
+// Convert Cartesian to Polar coords
+float r = log(length(normCoord));
+float theta = atan(normCoord.x, normCoord.y);
+
+texCoord.x = r;
+texCoord.y = theta;
+
+// Output
+gl_FragColor = texture2D(inputTexture0, texCoord);
+}
+
+)";

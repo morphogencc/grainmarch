@@ -197,10 +197,21 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A51AF7F19FDCE3A000208F0"
-               BuildableName = "connections copy.bundle"
+               BuildableName = "isis.bundle"
                BlueprintName = "isis"
+               ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BE478FC19FEF89200C3ACCB"
-               BuildableName = "Phase.bundle"
+               BuildableName = "Marblephase.bundle"
                BlueprintName = "Marblephase"
                ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
             </BuildableReference>

@@ -1,0 +1,44 @@
+//
+//  Grainmarch.cpp
+//  GrainmarchFFGL
+//
+//  Created by Michael Dewberry on 11/21/13.
+//
+//
+
+#include "PluginDefinition.h"
+#include "pulsar.glsl"
+#include "default_vertex_shader.glsl"
+
+DECLARE_PLUGIN(SourcePlugin, "PLSR", "pulsar", "seed of life circle pulsar", "by Nathan Lachenmyer");
+
+// Parameter(uniform name, minimum value, maximum value, default value, optional type (default standard/float.))
+
+BEGIN_SHADER_PARAMETERS()
+PARAM(time, 0.0, 100000.0, 0.0, FF_TYPE_STANDARD, true, true, AccumulateAction)
+PARAM(scale, 0.0, 20.0, 1.0)
+PARAM(linewidth, 0.0, 1.0, 0.1)
+PARAM(speed, 0.0, 10.0, 1.0)
+PARAM(overlap, 0.0, 2.0, 0.0)
+PARAM(saturation, 0.0, 1.0, 1.0)
+PARAM(even, 0.0, 1.0, 1.0)
+PARAM(odd, 0.0, 1.0, 1.0)
+PARAM(evenSpacing, 0.0, 5.0, 1.0)
+PARAM(oddSpacing, 0.0, 5.0, 1.0)
+PARAM(row0, 0.0, 1.0, 1.0)
+PARAM(row1, 0.0, 1.0, 1.0)
+PARAM(row2, 0.0, 1.0, 1.0)
+PARAM(row3, 0.0, 1.0, 1.0)
+PARAM(row4, 0.0, 1.0, 1.0)
+PARAM(row5, 0.0, 1.0, 1.0)
+PARAM(row6, 0.0, 1.0, 1.0)
+PARAM(row7, 0.0, 1.0, 1.0)
+PARAM(row0spacing, 0.0, 5.0, 1.0)
+PARAM(row1spacing, 0.0, 5.0, 1.0)
+PARAM(row2spacing, 0.0, 5.0, 1.0)
+PARAM(row3spacing, 0.0, 5.0, 1.0)
+PARAM(row4spacing, 0.0, 5.0, 1.0)
+PARAM(row5spacing, 0.0, 5.0, 1.0)
+PARAM(row6spacing, 0.0, 5.0, 1.0)
+PARAM(row7spacing, 0.0, 5.0, 1.0)
+END_SHADER_PARAMETERS()

@@ -24,6 +24,9 @@ uniform float Saturation;
 uniform float Overexpose;
 uniform float LogOverexpose;
 
+uniform float ShiftX;
+uniform float ShiftY;
+
 uniform float K[32];
 
 // hsv<->rgb routines from http://lolengine.net/blog/2013/07/27/rgb-to-hsv-in-glsl
@@ -71,11 +74,40 @@ vec2 f(vec2 z) {
     float y7 = y * y6;
    
     float real =
-        K[0] * x7 + K[1] * x5 * y2 + K[2] * x3 * y4 + K[3] * x * y7 + K[4] * x2 * y2 + K[5] * y4 + K[6] +
-        K[8] * x2 + K[9] * x * y;
+        K[0] * x * y7 +
+        K[1] * x6 * y2 +
+        K[2] * x7 +
+        K[3] * x5 * y2 +
+        K[4] * x3 * y3 +
+        K[5] * x * y5 +
+        K[6] * x5 +
+        K[7] * y5 +
+        K[8] * x2 * y2 +
+        K[9] * y4 +
+        K[10] * x3 +
+        K[11] * x2 * y +
+        K[12] * x * y +
+        K[13] * y2 +
+        K[14] * x +
+        K[15];
+    
     float imag =
-        K[16] * x6 * y + K[17] * x4 * y3 + K[18] * x3 * y + K[19] * x2 * y5 + K[20] * x * y3 + K[21] * y7 + K[22] * y + K[23] +
-        K[24] * x2     + K[25] * y * y;
+        K[16] * x6 * y +
+        K[17] * y7 +
+        K[18] * x4 * y3 +
+        K[19] * x2 * y5 +
+        K[20] * x3 * y3 +
+        K[21] * x5 * y +
+        K[22] * x2 * y3 +
+        K[23] * y5 +
+        K[24] * x3 * y +
+        K[25] * x * y3 +
+        K[26] * x2 * y +
+        K[27] * y3 +
+        K[28] * x2 +
+        K[29] * y2 +
+        K[30] * y +
+        K[31];
 
     return vec2(real, imag);
 
@@ -115,11 +147,9 @@ void main(void)
     vec2 w = vec2(cos(d), sin(d));
     float t = domain * pow(10.0, -Imprecision * 9.0 - 2.0);
     
-    
     vec2 tex = gl_TexCoord[0].st;
-    tex.t *= 3.0/4.0;
     
-    vec2 z0 = rotate((tex - vec2(0.5, 0.375)) * 2.0 * domain);
+    vec2 z0 = rotate(tex + vec2(2.0 * ShiftX - 1.0, 2.0 * ShiftY - 1.0) - vec2(0.5, 0.5)) * 2.0 * domain;
 	vec2 fz0 = f(z0);
     vec2 fzd = f(z0 + t * w);
     vec2 fk = (fzd - fz0) / (t * w);
